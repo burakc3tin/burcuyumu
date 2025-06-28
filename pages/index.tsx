@@ -391,25 +391,32 @@ Burç uyumunuzu keşfedin! ✨`;
                     Kadın Burcu
                   </h3>
                 </div>
-                <select
-                  value={femaleSign}
-                  onChange={(e) => setFemaleSign(e.target.value)}
-                  className={`w-full p-6 text-lg rounded-2xl border-2 focus:outline-none transition-all duration-300 hover:scale-105 focus:scale-105 ${
-                    darkMode 
-                      ? 'bg-gray-800/80 border-pink-400/30 text-white focus:border-pink-400 focus:bg-gray-700/80 backdrop-blur-md' 
-                      : 'bg-pink-50/80 border-pink-200 text-gray-700 focus:border-pink-500 focus:bg-pink-100 backdrop-blur-sm'
-                  }`}
-                  style={darkMode ? { colorScheme: 'dark' } : {}}
-                >
-                  <option value="" className={darkMode ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-500'}>
-                    ✨ Burç seçin...
-                  </option>
-                  {zodiacSigns.map((sign) => (
-                    <option key={sign.value} value={sign.value} className={darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-700'}>
-                      {sign.emoji} {sign.name} ({sign.dates})
+                <div className="relative">
+                  <select
+                    value={femaleSign}
+                    onChange={(e) => setFemaleSign(e.target.value)}
+                    className={`w-full p-6 text-lg rounded-2xl border-2 focus:outline-none transition-all duration-300 hover:scale-105 focus:scale-105 appearance-none pr-12 ${
+                      darkMode 
+                        ? 'bg-gray-800/80 border-pink-400/30 text-white focus:border-pink-400 focus:bg-gray-700/80 backdrop-blur-md' 
+                        : 'bg-pink-50/80 border-pink-200 text-gray-700 focus:border-pink-500 focus:bg-pink-100 backdrop-blur-sm'
+                    }`}
+                    style={darkMode ? { colorScheme: 'dark' } : {}}
+                  >
+                    <option value="" className={darkMode ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-500'}>
+                      ✨ Burç seçin...
                     </option>
-                  ))}
-                </select>
+                    {zodiacSigns.map((sign) => (
+                      <option key={sign.value} value={sign.value} className={darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-700'}>
+                        {sign.emoji} {sign.name} ({sign.dates})
+                      </option>
+                    ))}
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                    <svg className={`w-5 h-5 ${darkMode ? 'text-pink-400' : 'text-pink-500'}`} viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                </div>
                 {femaleSign && (
                   <div className={`p-6 rounded-2xl text-center transition-all duration-500 transform animate-fade-in ${
                     darkMode 
@@ -441,25 +448,32 @@ Burç uyumunuzu keşfedin! ✨`;
                     Erkek Burcu
                   </h3>
                 </div>
-                <select
-                  value={maleSign}
-                  onChange={(e) => setMaleSign(e.target.value)}
-                  className={`w-full p-6 text-lg rounded-2xl border-2 focus:outline-none transition-all duration-300 hover:scale-105 focus:scale-105 ${
-                    darkMode 
-                      ? 'bg-gray-800/80 border-blue-400/30 text-white focus:border-blue-400 focus:bg-gray-700/80 backdrop-blur-md' 
-                      : 'bg-blue-50/80 border-blue-200 text-gray-700 focus:border-blue-500 focus:bg-blue-100 backdrop-blur-sm'
-                  }`}
-                  style={darkMode ? { colorScheme: 'dark' } : {}}
-                >
-                  <option value="" className={darkMode ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-500'}>
-                    ✨ Burç seçin...
-                  </option>
-                  {zodiacSigns.map((sign) => (
-                    <option key={sign.value} value={sign.value} className={darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-700'}>
-                      {sign.emoji} {sign.name} ({sign.dates})
+                <div className="relative">
+                  <select
+                    value={maleSign}
+                    onChange={(e) => setMaleSign(e.target.value)}
+                    className={`w-full p-6 text-lg rounded-2xl border-2 focus:outline-none transition-all duration-300 hover:scale-105 focus:scale-105 appearance-none pr-12 ${
+                      darkMode 
+                        ? 'bg-gray-800/80 border-blue-400/30 text-white focus:border-blue-400 focus:bg-gray-700/80 backdrop-blur-md' 
+                        : 'bg-blue-50/80 border-blue-200 text-gray-700 focus:border-blue-500 focus:bg-blue-100 backdrop-blur-sm'
+                    }`}
+                    style={darkMode ? { colorScheme: 'dark' } : {}}
+                  >
+                    <option value="" className={darkMode ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-500'}>
+                      ✨ Burç seçin...
                     </option>
-                  ))}
-                </select>
+                    {zodiacSigns.map((sign) => (
+                      <option key={sign.value} value={sign.value} className={darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-700'}>
+                        {sign.emoji} {sign.name} ({sign.dates})
+                      </option>
+                    ))}
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                    <svg className={`w-5 h-5 ${darkMode ? 'text-blue-400' : 'text-blue-500'}`} viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                </div>
                 {maleSign && (
                   <div className={`p-6 rounded-2xl text-center transition-all duration-500 transform animate-fade-in ${
                     darkMode 
@@ -488,24 +502,24 @@ Burç uyumunuzu keşfedin! ✨`;
             )}
 
             {/* Analyze Button */}
-            <div className="text-center mt-12">
+            <div className="text-center mt-12 flex justify-center">
               <button
                 onClick={analyzeCompatibility}
                 disabled={!femaleSign || !maleSign || loading}
-                className="group relative px-12 py-6 bg-gradient-to-r from-pink-500 via-purple-600 to-blue-500 text-white font-bold text-xl rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 disabled:opacity-50 disabled:transform-none disabled:cursor-not-allowed flex items-center gap-4 mx-auto overflow-hidden"
+                className="group relative px-8 sm:px-12 py-4 sm:py-6 bg-gradient-to-r from-pink-500 via-purple-600 to-blue-500 text-white font-bold text-lg sm:text-xl rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 disabled:opacity-50 disabled:transform-none disabled:cursor-not-allowed flex items-center gap-3 sm:gap-4 overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-700 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative z-10 flex items-center gap-4">
+                <div className="relative z-10 flex items-center gap-3 sm:gap-4">
                   {loading ? (
                     <>
-                      <Loader2 className="w-7 h-7 animate-spin" />
-                      <span>Analiz Ediliyor...</span>
+                      <Loader2 className="w-5 h-5 sm:w-7 sm:h-7 animate-spin" />
+                      <span className="text-base sm:text-lg lg:text-xl">Analiz Ediliyor...</span>
                     </>
                   ) : (
                     <>
-                      <Sparkles className="w-7 h-7 animate-pulse" />
-                      <span>Uyumluluğu Keşfet</span>
-                      <Star className="w-7 h-7 animate-pulse" />
+                      <Sparkles className="w-5 h-5 sm:w-7 sm:h-7 animate-pulse" />
+                      <span className="text-base sm:text-lg lg:text-xl">Uyumluluğu Keşfet</span>
+                      <Star className="w-5 h-5 sm:w-7 sm:h-7 animate-pulse" />
                     </>
                   )}
                 </div>
@@ -568,13 +582,15 @@ Burç uyumunuzu keşfedin! ✨`;
                       const [emoji, ...rest] = line.split(' ');
                       return (
                         <div key={index} className="mb-6 animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-                          <div className={`flex items-center gap-3 mb-3 p-4 rounded-xl ${
+                          <div className={`p-4 rounded-xl ${
                             darkMode 
                               ? 'bg-white/10 border border-white/20' 
                               : 'bg-white/80 border border-purple-200'
                           }`}>
-                            <span className="text-3xl animate-pulse">{emoji}</span>
-                            <h3 className={`text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent`}>
+                            <div className="text-center mb-3">
+                              <span className="text-2xl sm:text-3xl animate-pulse block">{emoji}</span>
+                            </div>
+                            <h3 className={`text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight break-words text-center`}>
                               {rest.join(' ')}
                             </h3>
                           </div>
@@ -590,7 +606,7 @@ Burç uyumunuzu keşfedin! ✨`;
                               ? 'bg-white/5 border-l-4 border-purple-400' 
                               : 'bg-purple-50/80 border-l-4 border-purple-300'
                           }`}>
-                            <p className={`text-lg font-medium ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>
+                            <p className={`text-base sm:text-lg font-medium ${darkMode ? 'text-gray-200' : 'text-gray-700'} break-words`}>
                               <span className="text-purple-500 mr-2">✦</span>
                               {line.substring(2)}
                             </p>
@@ -602,9 +618,9 @@ Burç uyumunuzu keşfedin! ✨`;
                     else if (line.trim() && !line.match(/^[🌟💕✨⚠️🗣️❤️🏠💡]/)) {
                       return (
                         <div key={index} className="mb-4 animate-fade-in" style={{animationDelay: `${index * 0.08}s`}}>
-                          <p className={`text-lg leading-relaxed font-medium ${
+                          <p className={`text-sm sm:text-base md:text-lg leading-relaxed font-medium ${
                             darkMode ? 'text-gray-200' : 'text-gray-700'
-                          }`}>
+                          } break-words text-center`}>
                             {line}
                           </p>
                         </div>
