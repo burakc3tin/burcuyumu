@@ -1,0 +1,94 @@
+{
+  "name": "Ruh Eşim - Burç Uyumları ve Aşk Analizi",
+  "short_name": "Ruh Eşim",
+  "description": "Türkiye'nin en kapsamlı burç uyumları ve aşk uyumluluk analizi platformu. AI destekli detaylı burç analizi, sevgili hediye önerileri ve çift aktiviteleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf2f8",
+  "theme_color": "#ec4899",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "tr-TR",
+  "dir": "ltr",
+  "categories": ["lifestyle", "entertainment", "personalization", "social"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Burç Uyumları Analizi - Mobil Görünüm"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Burç Uyumları Analizi - Desktop Görünüm"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Burç Analizi",
+      "short_name": "Analiz",
+      "description": "Hızlı burç uyumluluğu analizi",
+      "url": "/",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Erkek Hediyeleri",
+      "short_name": "Erkek",
+      "description": "Erkek hediye önerileri",
+      "url": "/erkek-hediyeleri",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kadın Hediyeleri",
+      "short_name": "Kadın",
+      "description": "Kadın hediye önerileri",
+      "url": "/kadin-hediyeleri",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "100 Aktivite",
+      "short_name": "Aktivite",
+      "description": "Çift aktivite önerileri",
+      "url": "/aktiviteler",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

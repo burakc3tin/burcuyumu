@@ -1,0 +1,291 @@
+{
+  "descriptions": {
+    "high": [
+      "Bu iki burç arasında mükemmel bir uyum var! Birbirlerini çok iyi tamamlıyorlar.",
+      "Harika bir çift! Enerjileri birbirini destekliyor ve güçlendiriyor.",
+      "Bu kombinasyon gerçekten büyüleyici. Birbirlerinden çok şey öğrenecekler.",
+      "Mükemmel bir uyum! Aynı frekansta titreşen iki ruh.",
+      "Bu ikili tam bir dream team! Birlikte her şeyi başarabilirler.",
+      "Astrolojik açıdan çok uyumlu bir çift. Yıldızlar onları destekliyor.",
+      "Bu iki burç arasında doğal bir çekim var. Birbirlerini anlıyorlar.",
+      "Harika bir kimya! Bu iki burç birlikte büyüyebilir ve gelişebilir."
+    ],
+    "medium": [
+      "Bu iki burç arasında ilginç bir dinamik var. Çaba ile güzel sonuçlar alabilirler.",
+      "Farklılıkları onları güçlü kılabilir, sabır ve anlayış gerekiyor.",
+      "Orta seviye bir uyum. Birbirlerini anlamak için zaman gerekecek.",
+      "Bu kombinasyon çalışabilir ama karşılıklı anlayış şart.",
+      "Farklı dünyalardan geliyor olsalar da, bir araya geldiklerinde güzel şeyler yaratabilirler.",
+      "Bu ikili için denge anahtarı. Birbirlerinin farklılıklarını kabul etmeleri önemli.",
+      "Başlangıçta zorlayıcı olabilir ama zamanla güzel bir uyum yakalayabilirler.",
+      "Bu iki burç birbirinden çok şey öğrenebilir, sabır gerekiyor."
+    ],
+    "low": [
+      "Bu iki burç oldukça farklı yaklaşımlara sahip. Çok fazla anlayış gerekecek.",
+      "Zor ama imkansız değil! Bu ikili için ekstra çaba gerekiyor.",
+      "Farklılıklar bazen zorlayıcı olabilir ama doğru yaklaşımla çözülebilir.",
+      "Bu kombinasyon için tolerance ve sabır şart. Ama çaba gösterirlerse başarabilirler.",
+      "Karşıt kutuplardan gelen iki enerji. Denge bulmaları zaman alacak.",
+      "Bu ikili için kompromis çok önemli. Birbirlerini anlamak için çalışmaları gerekiyor.",
+      "Başlangıçta zorlu olabilir ama gerçek aşk her engeli aşar.",
+      "Farklı dünyalardan gelseler de, sevgi her şeyin üstesinden gelebilir."
+    ]
+  },
+  "strengths": {
+    "fire_fire": [
+      "Sınırsız enerji ve tutku",
+      "Ortak hedefler ve hırslar",
+      "Spontan ve heyecan verici ilişki",
+      "Birbirlerini motive etmeleri",
+      "Macera dolu yaşam tarzı",
+      "Güçlü fiziksel çekim",
+      "Liderlik özelliklerini paylaşmaları",
+      "Cesaret ve kararlılık"
+    ],
+    "earth_earth": [
+      "Güvenilir ve istikrarlı bağ",
+      "Pratik ve gerçekçi yaklaşım",
+      "Ortak değerler ve hedefler",
+      "Mali konularda uyum",
+      "Ev yaşamında huzur",
+      "Uzun vadeli planlar",
+      "Sadakat ve bağlılık",
+      "Aile değerlerine önem"
+    ],
+    "air_air": [
+      "Entelektüel uyum",
+      "Harika iletişim",
+      "Sosyal çevrede başarı",
+      "Özgürlüğe saygı",
+      "Yaratıcı projeler",
+      "Arkadaşlık temelli ilişki",
+      "Yeni fikirler üretme",
+      "Sosyal adalet konularında birlik"
+    ],
+    "water_water": [
+      "Derin duygusal bağ",
+      "Sezgisel anlayış",
+      "Empati ve şefkat",
+      "Romantik atmosfer",
+      "Maneviyat paylaşımı",
+      "Birbirlerinin duygularını anlama",
+      "Koruyucu yaklaşım",
+      "İçsel dünyayı paylaşma"
+    ],
+    "complementary": [
+      "Birbirlerini tamamlayıcı özellikler",
+      "Farklı bakış açıları",
+      "Birbirinden öğrenme fırsatı",
+      "Dengeli yaklaşım",
+      "Yeni deneyimler",
+      "Kişisel gelişim",
+      "Ufuk genişletme",
+      "Yaratıcı çözümler"
+    ]
+  },
+  "challenges": {
+    "fire_water": [
+      "Ateş ile suyun çatışması",
+      "Hız farkları",
+      "Duygusal yaklaşım farkları",
+      "Sabırsızlık vs hassasiyet",
+      "İletişim tarzı farkları"
+    ],
+    "earth_air": [
+      "Pratiklik vs idealcilik",
+      "Rutinler vs değişim",
+      "Güvenlik vs özgürlük",
+      "Gerçekçilik vs hayal kurma",
+      "İstikrar vs yenilik"
+    ],
+    "fire_earth": [
+      "Hız vs temkinlilik",
+      "Spontanlık vs planlama",
+      "Risk alma vs güvenlik",
+      "Değişim vs istikrar",
+      "Hareket vs sabır"
+    ],
+    "air_water": [
+      "Mantık vs duygular",
+      "Sosyallik vs mahremiyet",
+      "Objektiflik vs subjektiflik",
+      "Değişkenlik vs derin bağlar",
+      "Yüzeysellik vs derinlik"
+    ],
+    "same_sign": [
+      "Benzer zayıflıkların artması",
+      "Ego çatışmaları",
+      "Aynı hataları tekrarlama",
+      "Büyüme zorluğu",
+      "Tek bakış açısı"
+    ]
+  },
+  "communication": [
+    "Açık ve dürüst iletişim kurabilirler",
+    "Birbirlerini sessizce anlayabilirler",
+    "Konuşmaktan çok jest ve mimiklerle anlaşırlar",
+    "Entelektüel sohbetlerde zirvede olurlar",
+    "Duygusal iletişimde çok başarılılar",
+    "Bazen konuşmaya gerek duymadan anlaşırlar",
+    "Tartışmalardan güçlenerek çıkarlar",
+    "Birbirlerini motive edici şekilde konuşurlar",
+    "Derin konularda saatlerce sohbet edebilirler",
+    "Şakalaşarak iletişim kurmayı severler",
+    "Romantik sözlerle birbirlerini etkilerler",
+    "Pratik konularda net kararlar alabilirler"
+  ],
+  "romance": [
+    "Tutkulu ve ateşli bir romantizm yaşarlar",
+    "Sürprizlerle dolu romantik anlar",
+    "Sakin ve huzurlu romantik atmosfer",
+    "Derin ve meaningful romantik bağ",
+    "Maceralı ve heyecan verici romantizm",
+    "Klasik ve zarif romantik yaklaşım",
+    "Spontan ve beklenmedik romantik jestler",
+    "Duygusal derinlikte romantik bağ",
+    "Arkadaşlık temelli romantizm",
+    "Koruyucu ve şefkatli romantik yaklaşım",
+    "Yaratıcı ve farklı romantik fikirler",
+    "İstikrarlı ve güvenli romantik ilişki"
+  ],
+  "longterm": [
+    "Uzun vadede mükemmel bir eş olabilirler",
+    "Zamanla daha da güçlenen bir bağ kurabilirler",
+    "Birlikte yaşlanabilecek türden bir çift",
+    "Aile kurmak için ideal uyum",
+    "Beraber büyüyebilecek potansiyel",
+    "Yaşam boyu devam edebilecek bir aşk",
+    "Birbirlerini destekleyerek ilerleyebilirler",
+    "Evlilik için çok uygun bir kombinasyon",
+    "Çocuk sahibi olmak için harika uyum",
+    "Birlikte hedeflere ulaşabilecek güç",
+    "Emeklilik döneminde bile mutlu olabilirler",
+    "Hayat arkadaşlığı için mükemmel"
+  ],
+  "advice": [
+    "Birbirinizi olduğu gibi kabul edin",
+    "Sabırlı olun ve acele etmeyin",
+    "Düzenli olarak kaliteli zaman geçirin",
+    "Birbirinizin hobilerini destekleyin",
+    "Açık iletişimi hiç bırakmayın",
+    "Küçük sürprizlerle ilişkinizi canlandırın",
+    "Ortak hedefler belirleyin",
+    "Birbirinizin ailesine saygı gösterin",
+    "Geçmişi geçmişte bırakın",
+    "Geleceği birlikte planlayın",
+    "Birbirinizin farklılıklarını zenginlik olarak görün",
+    "Romantizmi hiç kaybetmeyin",
+    "Güven en önemli temel taşınız olsun",
+    "Birbirinizi sürekli destekleyin",
+    "Küçük kavgaları büyütmeyin",
+    "Özür dilemeyi öğrenin",
+    "Birbirinize zaman ayırın",
+    "Ortak arkadaş çevresi edinin",
+    "Seyahat etmeyi ihmal etmeyin",
+    "Birlikte yeni şeyler öğrenin"
+  ],
+  "compatibility_scores": {
+    "aries": {
+      "aries": [88, 85, 90, 87, 92],
+      "taurus": [65, 68, 62, 70, 63],
+      "gemini": [85, 88, 82, 87, 90],
+      "cancer": [58, 62, 55, 60, 65],
+      "leo": [95, 92, 88, 90, 93],
+      "virgo": [60, 58, 63, 65, 62],
+      "libra": [78, 75, 80, 82, 77],
+      "scorpio": [80, 85, 78, 83, 87],
+      "sagittarius": [92, 95, 90, 88, 93],
+      "capricorn": [65, 68, 62, 67, 70],
+      "aquarius": [85, 82, 88, 87, 85],
+      "pisces": [68, 65, 70, 72, 67]
+    },
+    "taurus": {
+      "taurus": [85, 88, 82, 87, 90],
+      "gemini": [62, 58, 65, 68, 60],
+      "cancer": [88, 92, 85, 90, 87],
+      "leo": [70, 68, 73, 75, 72],
+      "virgo": [92, 88, 95, 90, 93],
+      "libra": [75, 78, 72, 77, 80],
+      "scorpio": [85, 88, 82, 87, 90],
+      "sagittarius": [58, 62, 55, 60, 65],
+      "capricorn": [90, 92, 88, 93, 87],
+      "aquarius": [65, 62, 68, 70, 67],
+      "pisces": [82, 85, 78, 80, 83]
+    },
+    "gemini": {
+      "gemini": [82, 85, 78, 88, 83],
+      "cancer": [65, 62, 68, 70, 67],
+      "leo": [85, 88, 82, 87, 90],
+      "virgo": [70, 73, 68, 75, 72],
+      "libra": [90, 92, 88, 93, 87],
+      "scorpio": [68, 65, 70, 72, 75],
+      "sagittarius": [88, 85, 90, 92, 87],
+      "capricorn": [62, 58, 65, 68, 63],
+      "aquarius": [92, 90, 88, 93, 95],
+      "pisces": [70, 68, 73, 75, 72]
+    },
+    "cancer": {
+      "cancer": [90, 92, 88, 87, 93],
+      "leo": [72, 68, 75, 78, 70],
+      "virgo": [85, 82, 88, 87, 83],
+      "libra": [75, 78, 72, 77, 80],
+      "scorpio": [95, 92, 90, 93, 88],
+      "sagittarius": [60, 58, 63, 65, 62],
+      "capricorn": [82, 85, 78, 80, 83],
+      "aquarius": [68, 65, 70, 72, 67],
+      "pisces": [92, 90, 95, 88, 93]
+    },
+    "leo": {
+      "leo": [88, 85, 90, 92, 87],
+      "virgo": [65, 68, 62, 67, 70],
+      "libra": [82, 85, 78, 80, 83],
+      "scorpio": [78, 75, 80, 82, 77],
+      "sagittarius": [90, 92, 88, 93, 87],
+      "capricorn": [68, 65, 70, 72, 75],
+      "aquarius": [80, 82, 78, 83, 85],
+      "pisces": [72, 70, 75, 78, 73]
+    },
+    "virgo": {
+      "virgo": [85, 88, 82, 87, 90],
+      "libra": [70, 73, 68, 75, 72],
+      "scorpio": [82, 85, 78, 80, 83],
+      "sagittarius": [62, 58, 65, 68, 63],
+      "capricorn": [90, 92, 88, 93, 87],
+      "aquarius": [68, 65, 70, 72, 75],
+      "pisces": [80, 82, 78, 83, 85]
+    },
+    "libra": {
+      "libra": [82, 85, 78, 88, 83],
+      "scorpio": [75, 78, 72, 77, 80],
+      "sagittarius": [85, 88, 82, 87, 90],
+      "capricorn": [70, 73, 68, 75, 72],
+      "aquarius": [88, 90, 85, 92, 87],
+      "pisces": [78, 75, 80, 82, 77]
+    },
+    "scorpio": {
+      "scorpio": [92, 90, 95, 88, 93],
+      "sagittarius": [72, 70, 75, 78, 73],
+      "capricorn": [85, 82, 88, 87, 83],
+      "aquarius": [70, 68, 73, 75, 72],
+      "pisces": [90, 92, 88, 93, 87]
+    },
+    "sagittarius": {
+      "sagittarius": [88, 85, 90, 92, 87],
+      "capricorn": [65, 62, 68, 70, 67],
+      "aquarius": [85, 88, 82, 87, 90],
+      "pisces": [68, 65, 70, 72, 75]
+    },
+    "capricorn": {
+      "capricorn": [85, 88, 82, 87, 90],
+      "aquarius": [62, 58, 65, 68, 63],
+      "pisces": [78, 75, 80, 82, 77]
+    },
+    "aquarius": {
+      "aquarius": [82, 85, 78, 88, 83],
+      "pisces": [72, 70, 75, 78, 73]
+    },
+    "pisces": {
+      "pisces": [90, 92, 88, 87, 93]
+    }
+  }
+}
