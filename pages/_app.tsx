@@ -15,6 +15,15 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* Language and Region */}
         <meta httpEquiv="content-language" content="tr" />
         <meta name="language" content="Turkish" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3X2MLGDK3"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W3X2MLGDK3');
+          `
+        }} />
         <meta name="geo.region" content="TR" />
         <meta name="geo.country" content="Turkey" />
         

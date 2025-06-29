@@ -16,15 +16,7 @@ export default function Document() {
         <meta httpEquiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
         
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3X2MLGDK3"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-W3X2MLGDX3');
-          `
-        }} />
+      
       </Head>
       <body className="font-inter">
         <Main />
