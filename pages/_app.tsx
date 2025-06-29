@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ec4899" />
         <meta name="msapplication-TileColor" content="#ec4899" />
-        
+        <meta name="google-site-verification" content="ycJ9Zn2Nwx4n-YV0XRJkdTaZhK8qHwA7gAmy8Qg2w6Y" />
         {/* Language and Region */}
         <meta httpEquiv="content-language" content="tr" />
         <meta name="language" content="Turkish" />
