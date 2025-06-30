@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         }} />
         <meta name="geo.region" content="TR" />
         <meta name="geo.country" content="Turkey" />
-        
+        <meta name="google-adsense-account" content="ca-pub-9779410198173472"></meta>
         {/* Favicon and icons */}
          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
